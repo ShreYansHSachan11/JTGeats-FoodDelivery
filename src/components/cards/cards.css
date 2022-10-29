@@ -1,0 +1,15 @@
+.items{
+    margin-top: 62px;
+    display: flex;
+    flex-wrap: wrap;
+    width:1260px;
+    height:1100px;
+    align-items: space-between;
+    justify-content: space-between;
+}
+h1{
+    font-size: 40px;
+    letter-spacing: -0.012em;
+    font-weight: 800;
+color: #000000;
+}

@@ -1,0 +1,122 @@
+.carousel h1{
+    font-size: 40px;
+    letter-spacing: -0.012em;
+    font-weight: 800;
+color: #000000;
+text-align: center;
+margin-top:120px;
+margin-bottom: 40px;
+}
+.carousel-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-items{
+    max-width: 1060px;
+    height:350px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.carousel-body .fullcard{
+    margin: 0 30px;
+}
+
+.circlearrow {
+    border-radius: 50%;
+  }
+  .circle1 {
+    min-width: 69px;
+    height: 69px;
+    background: #F7F8FA;
+    border: 3px solid #1AC073;
+  }
+  .left-arrow {
+           max-width: 21px;
+    height: 15px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 21px solid #1AC073;
+    transform: rotate(90deg);
+    border-radius: 7px;
+    margin-left: -52px;
+        
+        }
+        .right-arrow {
+                max-width: 21px;
+    height: 15px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 21px solid #1AC073;
+    transform: rotate(270deg);
+    border-radius: 7px;
+    position: absolute;
+            
+            }
+            .goleft{
+                margin-right:  50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                cursor:pointer;
+                position: absolute;
+                left:130px;
+                align-self: center;
+            }
+            .goleft:hover > .circle1{
+                background-color:  #1AC073;
+            }
+            .goleft:hover > .left-arrow{
+                background-color:  #1AC073;
+                border-top: 21px solid #F7F8FA;
+            }
+            .goright:hover > .circle1{
+                background-color:  #1AC073;
+            }
+            .goright:hover > .right-arrow{
+                background-color:  #1AC073;
+                border-top: 21px solid #F7F8FA;
+            }
+            .goright{
+                margin-left:  50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right:130px;
+                cursor: pointer;
+            }
+.button1{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 19px 25px;
+gap: 10px;
+background: #1AC073;
+border-radius: 10px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.012em;
+border: none;
+color: #FFFFFF;
+margin-top: 87px;
+margin-bottom: 160px;
+cursor: pointer;
+}

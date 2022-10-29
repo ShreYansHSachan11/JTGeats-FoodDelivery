@@ -1,0 +1,142 @@
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background: #1AC073;
+    height: 800px;
+    width: 1540px;
+    color: white;
+    margin-bottom: 105px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: #1AC073;
+
+}
+
+.nav-left {
+    position: absolute;
+
+    margin: 0 131.5px;
+    font-family: 'Squada One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    /* identical to box height, or 62% */
+
+    letter-spacing: -0.012em;
+
+    color: #FFFFFF;
+}
+
+.nav-center {
+    margin-left: 559px;
+
+}
+
+.nav-center ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-center li {
+    list-style: none;
+    margin: 0 20px;
+
+}
+
+.nav-center a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-right {
+    display: flex;
+    margin: 0 260px;
+}
+
+.nav-right img {
+    height: 19px;
+    width: 19px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.header-section{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    position: relative;
+    top: 200px;
+    margin:0px 0px;
+}
+.header-left {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin:0 130px;
+}
+
+.header-left h1 {
+    font-style: normal;
+    width: 534px;
+    height: 147px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+    margin:10px 0;
+    color:#FFFFFF;
+}
+.header-left p{
+    width: 412px;
+    height: 40px;
+    margin:20px 0;
+}
+
+.button-section {
+    display: flex;
+    width:360px;
+    margin:20px 0;
+}
+
+.button-section input {
+    width: 398px;
+    height: 58px;
+    background: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0 30px;
+}
+
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 29px;
+    gap: 10px;
+    border: none;
+    color: #FFFFFF;
+    background: #F3BA00;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+
+}
