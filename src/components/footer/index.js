@@ -6,8 +6,9 @@ import insta from './images/insta.png'
 
 const footer = () => {
   return (
-    <footer>
-      <div className="footernav mg-130">
+    <footer className=''>
+      <div className="footer">
+      <div className="footernav maxwidth-0">
         <div className="footernav-left">
          <p>JTGeats</p>
         </div>
@@ -31,7 +32,8 @@ const footer = () => {
             </div>
         </div>
     </div>
-    <hr className='mg-130'/>
+    <hr className='hr'/>
+    </div>
   </footer>
   )
 }

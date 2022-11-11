@@ -70,9 +70,10 @@ color: #1B1C21;
 
 .contact{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 70px;
     margin-top: 0px;
+    width: 100vw;
 }
 .contact-right img{
     max-height: 426px;

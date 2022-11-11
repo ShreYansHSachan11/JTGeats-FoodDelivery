@@ -1,49 +1,85 @@
 .star{
-    height:13px;
-    width:13px;
+    height:15px;
+    width:15px;
     /* margin:4px 4px; */
 
 }
 .add{
-    height:20px;
-    width:22px;
-    margin:0px 4px;
+    height:24px;
+    width:25px;
+    margin:0px 4px 0 0;
+    visibility: visible;
 
 }
+.icons{
+    height:24px;
+    width:25px;
+    margin:0px 0px;
+
+}
+.details2rightonclick input{
+    height:20px;
+    width:22px;
+    border:1px solid #F3BA00;
+    text-align: center;
+}
+
 .main-img{
-    width:290px;
-    height:260px;
+    width:350px;
+    height:300px;
 }
 .details{
-    padding:12px;
+    padding:12px 0;
     background: #FFFFFF;
+    
 }
 .details1{
+    width:310px;
     display: flex;
+    margin-left:25px;
     justify-content: space-between;
     height: 25px;
     align-items: center;
     margin-bottom: 15px;
+    font-size: 20px;
+
 }
+
 .details2left{
     display:flex;
     /* justify-content:center; */
     align-items: center;
-    font-size: 13px;
+    font-size: 15px;
 }
 .details2left p{
-    margin:0px 7px;
+    margin:0px 8px;
 }
 .fullcard{
-    width:290px;
-    height:260px;
+    width:310px;
+    height:300px;
+    margin-bottom: 140px;
 }
 .details2{
+    width:310px;
     display: flex;
+    margin-left:25px;
     justify-content: space-between;
+    height: 25px;
+    align-items: center;
+    margin-bottom: 15px;
+    
 }
 .details2right{
     display:flex;
     /* justify-content:center; */
     align-items: center;
+}
+.details2rightonclick{
+    display:flex;
+    /* justify-content:center; */
+    align-items: center;
+    margin:0 5px;
+    position: relative;
+    left: 30px;
+    visibility: hidden;
 }

@@ -1,20 +1,32 @@
 footer{
-    height:120px;
+    height: 120px;
     background: #1AC073;
-   /* padding:30px; */
-    width: 100vw;
+    /* width: 100vw; */
+    flex-direction: column;
+    display: flex;
     color: white;
+    padding: 0;
+    align-items: center;
     /* margin-bottom: 105px; */
+    
 }
-
-
+.hr{
+    width:85vw;
+    text-align: center;
+}
+.footer{
+    width: 100vw;
+    /* margin:0 100px; */
+    display: flex;
+    flex-direction: column;
+}
 .footernav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
-    /* width: 1540px; */
+    /* width: 100vw; */
+    margin:0 150px;
     height: 60px;
     
     background: #1AC073;
@@ -24,7 +36,7 @@ footer{
 .footernav-left {
    
 
-    margin: 0 131.5px;
+    /* margin: 0 131.5px; */
     font-family: 'Squada One';
     font-style: normal;
     font-weight: 400;

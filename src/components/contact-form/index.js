@@ -20,7 +20,7 @@ const EmailContactForm = () => {
       });
   };
   return (
-    <div className="contact mg-130">
+    <div className="contact maxwidth-1 m-auto">
       <div className="contact-left">
         <p className="p1">
           Do you have a question <br />

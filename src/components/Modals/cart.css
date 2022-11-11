@@ -1,0 +1,57 @@
+.cartmodal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.cartmodal h3{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 20px;
+    /* or 50% */
+    
+    letter-spacing: -0.012em;
+    
+    color: #000000;
+}
+.cartmodal p{
+    margin: 0;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+/* or 83% */
+
+letter-spacing: -0.012em;
+
+color: #AAA7A7;
+}
+.cartmodal img{
+    width:200px;
+    height: 225px;
+}
+.backtomenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 19px 25px;
+    gap: 10px;
+    width: 210px;
+    height: 58px;
+    background: #1AC073;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border:none;
+    cursor: pointer;
+}

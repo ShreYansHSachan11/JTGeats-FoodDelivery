@@ -5,11 +5,13 @@ import Carousel from '../components/carousel'
 import Video from '../components/video-section'
 import Contact from '../components/contact-form'
 import Footer from '../components/footer'
+import Cart from '../components/Modals/cart'
 
 const homepage = () => {
   return (
     <div>
         <Header/>
+     
         <Cards/>
         <Carousel/>
         <Video/>

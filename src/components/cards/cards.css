@@ -2,8 +2,8 @@
     margin-top: 62px;
     display: flex;
     flex-wrap: wrap;
-    width:1260px;
-    height:1100px;
+    width:80vw;
+    min-height:1100px;
     align-items: space-between;
     justify-content: space-between;
 }
@@ -12,4 +12,12 @@ h1{
     letter-spacing: -0.012em;
     font-weight: 800;
 color: #000000;
+}
+.kitchen-section{
+        /* min-width: 100vw; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0 0 350px 0; */
 }

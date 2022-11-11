@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     max-height: 900px;
+    min-width:100vw;
 }
 .video-section h1{
     width: 750px;
@@ -29,14 +30,14 @@ margin: 0;
     margin-bottom: 50px;
 }
 .video-section img{
-    width:900px;
-    height:450px;
+    width:1000px;
+    height:550px;
 }
 .back{
-    min-width:1540px;
+    min-width: 100vw;
     min-height: 350px;
     background: #C7EACC;
     position: relative;
-    top:-225px;
+    top: -225px;
     z-index: -1;
 }

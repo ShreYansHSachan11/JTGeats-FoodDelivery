@@ -13,87 +13,89 @@ import fooditem8 from './images/food-item8.png'
 
 const Cards = () => {
   return (
-    <div className="kitchen-section mg-130">
-      <h1>Home Kitchen</h1>
+    <>
+    <h1 className='maxwidth-1 m-auto'>Home Kitchen</h1>
+    <div className="kitchen-section maxwidth-0 m-auto">
+      
       <div className="items">
-        <Card
+        <Card id='1'
           img={fooditem1}
           name="Home made pizza"
           price="₹190"
           stars="4.7"
           time="50-79 min"
         />
-        <Card
+        <Card id='2'
           img={fooditem2}
           name="Home made pizza"
           price="₹190"
           stars="4.7"
           time="50-79 min"
         />
-        <Card
+        <Card id='3'
           img={fooditem3}
           name="Home made pizza"
           price="₹190"
           stars="4.7"
           time="50-79 min"
         />
-        <Card
+        <Card id='4'
           img={fooditem4}
           name="Home made pizza"
           price="₹190"
           stars="4.7"
           time="50-79 min"
         />
-        <Card
+        <Card id='5'
           img={fooditem5}
           name="Home made pizza"
           price="₹190"
           stars="4.7"
           time="50-79 min"
         />
-        <Card
+        <Card id='6'
           img={fooditem6}
           name="Home made pizza"
           price="₹190"
           stars="4.7"
           time="50-79 min"
         />
-        <Card
+        <Card id='7'
           img={fooditem7}
           name="Home made pizza"
           price="₹190"
           stars="4.7"
           time="50-79 min"
         />
-        <Card
+        <Card id='8'
           img={fooditem8}
           name="Home made pizza"
           price="₹190"
           stars="4.7"
           time="50-79 min"
         />
-        <Card
+        <Card id='9'
           img={fooditem1}
           name="Home made pizza"
           price="₹190"
           stars="4.7"
           time="50-79 min"
         />
-        <Card
+        <Card id='10'
           img={fooditem2}
           name="Home made pizza"
           price="₹190"
           stars="4.7"
           time="50-79 min"
         />
-        <Card
+        <Card id='11'
           img={fooditem3}
           name="Home made pizza"
           price="₹190"
           stars="4.7"
           time="50-79 min"
         />
-        <Card
+        <Card id='12'
           img={fooditem4}
           name="Home made pizza"
           price="₹190"
@@ -102,7 +104,7 @@ const Cards = () => {
         />
         
       </div>
-    </div>
+    </div></>
   )
 }
 
